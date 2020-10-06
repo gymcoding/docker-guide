@@ -46,16 +46,12 @@ module.exports = {
     sidebar: [
       '/guide',
       {
-        title: '도커 이미지',
+        title: '기본 운영 명령어',
         collapsable: false,
         children: [
-          '/basic/variable',
-          '/basic/datatype',
-          '/basic/operator',
-          '/basic/control',
-          '/basic/function',
-          '/basic/scope',
-          '/basic/array',
+          '/basic/remove-container.md',
+          '/basic/remove-image.md',
+          '/basic/docker-logs.md',
         ]
       }
     ]
